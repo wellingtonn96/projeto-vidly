@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pylint = "*"
+django-tastypie = "*"
+gunicorn = "*"
+whitenoise = "*"
+django-heroku = "*"
+psycopg2 = "*"
+
+[dev-packages]
+yapf = "*"
+
+[requires]
+python_version = "3.6"
